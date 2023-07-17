@@ -1,0 +1,31 @@
+/* index */
+
+.home_main_container{
+    height:200%;
+    width: 100%;
+    background-color: coral;
+    position: absolute;
+}
+
+
+
+
+/* header */
+
+.header_container{
+    height:20%;
+    width:100%;
+    background-color: aqua;
+    position: absolute;
+}
+
+
+
+
+/* footer */
+.footer_container{
+    height: 40%;
+    width:100%;
+    background-color: red;
+    position: absolute;
+}
