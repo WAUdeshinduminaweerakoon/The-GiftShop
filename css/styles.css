@@ -1,31 +1,130 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* index */
 
-.home_main_container{
+.main_container{
+    display: block;
     height:200%;
-    width: 100%;
-    background-color: coral;
-    position: absolute;
+    width:100%;
 }
-
-
-
-
-/* header */
 
 .header_container{
+    height:10%;
+    width:100%;
+    border:1px solid white;
+    display:flex;
+}
+
+.index_content{
+    height:160%;
+    width:100%;
+    background-color: blue;
+    border:1px solid white;
+}
+
+.footer_container{
     height:20%;
     width:100%;
-    background-color: aqua;
-    position: absolute;
+    background-color: chartreuse;
+    border:1px solid white;
+}
+
+.main_logo_container{
+    width:20%;
+    border:1px solid white;
+}
+
+.navigation_pane_container{
+    width:74%;
+    display:flex;
+    border:1px solid white;
+}
+
+.navigation_icon_container{
+    width:10%;
+    padding-top:30px;
+    padding-bottom:30px;
+    display: flex;
+    border:1px solid white;
+}
+
+.giftshop_logo{
+    width:250px;
+    margin-left:15px;
+}
+
+.navigation_pane{
+    width:50%;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.searchbox_container{
+    width:50%;
+    padding-top:30px;
+    display: flex;
+    border:1px solid white;
+}
+
+.navigation_link{
+    text-decoration: none;
+    color:coral;
+    font-weight: 600;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.navigation_icon{
+    width:40px;
+    padding-right: 0px;
+}
+
+.icon_container{
+    width:50%;
+    padding-right:30px;
+    text-align: right;
+    border:1px solid white;
+}
+
+.searchbox_box_container{
+    width:85%;
+    border:1px solid white;
+    text-align: right;
+}
+
+.search_icon_container{
+    width:15%;
+    border:1px solid white;
 }
 
 
 
-
-/* footer */
-.footer_container{
-    height: 40%;
-    width:100%;
-    background-color: red;
-    position: absolute;
+.searchbox{
+    width: 70%;
+    border: 3px solid coral;
+    
+    padding: 4px;
+    height: 40px;
+    border-radius: 8px 8px 8px 8px;
+    outline: none;
+    color: #9DBFAF;
+    margin:0;
+    font-size: 20px;
 }
+
+.searchButton1{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.searchButton2 {
+    width: 33px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+  }
+
