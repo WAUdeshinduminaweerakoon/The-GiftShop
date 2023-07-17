@@ -13,7 +13,7 @@ html, body{
 }
 
 .header_container{
-    height:10%;
+    height:8%;
     width:100%;
     border:1px solid white;
     display:flex;
@@ -128,3 +128,7 @@ html, body{
     border: none;
   }
 
+  .main_image{
+    width:100%;
+    transition: 0.3s;
+  }

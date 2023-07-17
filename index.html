@@ -10,9 +10,10 @@
 
         <link rel="stylesheet" href="css/styles.css" type="text/css">
 
+
     </head>
 
-    <body>
+    <body onLoad="imageChanger();">
 
         <div class="main_container">
             <div class="header_container">
@@ -74,6 +75,20 @@
             </div>
 
             <div class="index_content">
+
+                <div>
+                    <img id="image" src="images/mainimage1.jpg" alt="pictures" class="main_image">
+
+                    <script type="text/javascript">
+                        let image=document.getElementById('image');
+                        let images=['images/mainimage1.jpg','images/mainimage2.jpg','images/mainimage3.jpg','images/mainimage4.jpg','images/mainimage5.jpg','images/mainimage6.jpg','images/mainimage7.jpg'];
+                        setInterval(function(){
+                            let random=Math.floor(Math.random()*6);
+                            image.src=images[random];
+                        },4000)
+            
+                    </script>
+                </div>
 
             </div>
 
