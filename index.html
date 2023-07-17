@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
     <head>
+
         <title>The GiftShop</title>
 
         <meta charset="UTF-8">
@@ -9,23 +10,92 @@
 
         <link rel="stylesheet" href="css/styles.css" type="text/css">
 
+
     </head>
 
-    <body>
+    <body onLoad="imageChanger();">
 
-        <div class="header_container">
+        <div class="main_container">
+            <div class="header_container">
+                <div class="main_logo_container">
+                    <a href="index.html">
+                        <img src="images/GiftShop logo.png" alt="GiftShop Logo" class="giftshop_logo">
+                    </a>
+                </div>
+
+                <div class="navigation_pane_container">
+                    <div class="navigation_pane">
+                        <a href="index.html" class="navigation_link">Home</a>&nbsp;
+                        <a href="shop.html" class="navigation_link">Shop</a>&nbsp;
+                        <a href="about.html" class="navigation_link">About</a>&nbsp;
+                        <a href="contact.html" class="navigation_link">Contact</a>&nbsp;
+
+                    </div>
+
+                    <div class="searchbox_container">
+                        
+
+                            <div class="searchbox_box_container">
+
+                                
+                                <input type="search" name="searchProducts" id="" class="searchbox">
+                                
+                            
+                            </div>
+
+                            <div class="search_icon_container">
+                                
+                                <button type="submit" class="searchButton1">
+                                    <img src="icons/search.png" alt="" class="searchButton2">
+                                </button>
+                                
+                            </div>
+                        
+
+                    </div>
+
+                </div>
+
+                <div class="navigation_icon_container">
+
+                    <div class="icon_container">
+                        <a href="cart.html">
+                            <img src="icons/cart.png" class="navigation_icon">
+                        </a>
+                    </div>
+
+                    <div class="icon_container">
+                        <a href="login.html">
+                            <img src="icons/userprofile.png" class="navigation_icon">
+                        </a>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="index_content">
+                <div>
+                    <img id="image" src="images/mainimage1.jpg" alt="pictures" class="main_image">
+
+                    <script type="text/javascript">
+                        let image=document.getElementById('image');
+                        let images=['images/mainimage1.jpg','images/mainimage2.jpg','images/mainimage3.jpg','images/mainimage4.jpg','images/mainimage5.jpg','images/mainimage6.jpg','images/mainimage7.jpg'];
+                        setInterval(function(){
+                            let random=Math.floor(Math.random()*6);
+                            image.src=images[random];
+                        },4000)
+            
+                    </script>
+                </div>
+
+            </div>
+
+            <div class="footer_container">
+
+            </div>
 
         </div>
-
-        <div class="home_main_container">
-
-        </div>
-
-        <div class="footer_container">
-
-        </div>
-        
     </body>
 
 </html>
-
