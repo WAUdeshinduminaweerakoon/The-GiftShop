@@ -2,6 +2,7 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color:black;
 }
 
 /* index */
@@ -22,6 +23,7 @@ html, body{
     
     width:100%;
     border:1px solid white;
+    background-color: white;
 }
 
 .footer_container{
@@ -194,6 +196,84 @@ html, body{
     width:40px;
     margin:10px 20px 10px 20px;
   }
+
+  /* register */
+  .register_container{
+    width:100%;
+    padding-top:80px;
+    padding-bottom:120px;
+    background-color: white;
+  }
+
+  .register_form{
+    width:60%;
+    margin-left:20%;
+    margin-right: 20%;
+    background-color:floralwhite;
+    border-radius: 14px;
+    border:4px solid antiquewhite;
+  }
+
+  .register_heading_container{
+    padding-top:42px;
+    padding-bottom: 24px;
+    font-size:20px;
+    color:black;
+    text-align: center;
+  }
+
+  .register_field_container{
+    padding:10px 50px 10px 50px;
+  }
+
+  .register_tabs_container{
+    padding:18px 50px 50px 50px;
+    text-align: center;
+  }
+
+  .register_form_row{
+    display:flex;
+  }
+
+  .register_form_column{
+    width:50%;
+    padding-top:8px;
+    padding-bottom:10px;
+    padding-left:25px;
+  }
+
+  .register_field_label{
+    width: 100%;
+    font-size:18px;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+  }
+
+  .register_field{
+    width:80%;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+    font-size:17px;
+    border:1px solid grey;
+
+  }
+
+  .register_button{
+    border-radius:2px;
+    font-size:15px;
+    padding:8px 20px 8px 20px;
+    background-color:antiquewhite;
+    border:1px solid grey;
+
+  }
+
+.register_to_login{
+  padding-top:30px;
+  font-size:18px;
+}
+  
 
 
   
