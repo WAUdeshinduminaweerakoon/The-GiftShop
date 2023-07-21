@@ -57,11 +57,74 @@ body{
     overflow: hidden;
 }
 .about-image img{
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     display: block;
     transition: 0.5s ease;
 }
 .about-image:hover img{
     transform: scale(1.2);
+}
+.about-content {
+    flex: 1;
+}
+.about-content h2{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+    
+}
+.about-content .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: #000;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+
+}
+.about-content .read-more :hover{
+    background-color: blueviolet;
+}
+@media screen and (max-width: 768px) {
+    .aboutHeading{
+        padding: 0px 20px;
+    }
+    .aboutHeading h1{
+        font-size: 36px;
+    }
+    .aboutHeading p{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .AboutContainer{
+        padding: 0px;
+    }
+    .about{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content p{
+        padding: 0px;
+        font-size: 16px;
+
+    }
+    .about-content .read-more{
+        font-size: 16px;
+
+    }
+    
 }
